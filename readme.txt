@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------
 FAT32 filesystem driver for TOS
 (c)2026 Anders Granlund
-https://github.com/agranlund
+https://github.com/agranlund/tos-fat32/
 
 This software uses the FatFs library (c)20xx, ChaN
 https://elm-chan.org/fsw/ff/
