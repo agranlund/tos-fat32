@@ -4,6 +4,7 @@
 *.d
 *.map
 *.tos
+fat32/*
 src/*.prg
 src/gcc/include/
 src/gcc/lib/
