@@ -1,0 +1,10 @@
+.DS_Store
+*.a
+*.o
+*.d
+*.map
+*.prg
+*.tos
+src/gcc/include/
+src/gcc/lib/
+
