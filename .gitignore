@@ -3,8 +3,8 @@
 *.o
 *.d
 *.map
-*.prg
 *.tos
+src/*.prg
 src/gcc/include/
 src/gcc/lib/
 

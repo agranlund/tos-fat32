@@ -72,6 +72,7 @@ all: $(current_makefile) $(LINKOBJS)
 	$(GCC) $(CFLAGS) $(CPUFLAGS) $(LINKOBJS) $(LFLAGS) -o $(BIN)
 	$(GSTRIP) $(BIN)
 	$(GFLAGS) $(PRGFLAGS) $(BIN)
+	cp $(BIN) ../
 
 gcc/lgcc.o: gcc/lgcc.S
 	$(GCC) -m68000 -c $< -o $@
